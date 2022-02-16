@@ -56,13 +56,13 @@ runner:
 
 And that's it! Whenever you execute a nornir task, a progress bar will appear for 
 each host in the inventory, incrementing for each host that finishes execution.
-The name of the task being run is called as the progress bar's description.
+The name of the task being run is used as the progress bar's description.
 
 ![Progress bar example](progressbar.png)
 
 ## Configuration
-The plugin uses tqdm to render the progressbar. Keyword arguments can be passed directly
-to the tqdm() call by setting them on the plugin options. Adding a 'desc' argument will
+The plugin uses tqdm to render the progress bar. Keyword arguments can be passed directly
+to the tqdm() call by setting them under the plugin options. Adding a 'desc' argument will
 provide a custom description to the progress bar. Consult 
 [tqdm's documentation](https://tqdm.github.io/) for all the keyword arguments supported.
 
