@@ -54,9 +54,10 @@ runner:
         num_workers: 10
 ```
 
-And that's it! Whenever you execute a nornir task, a progress bar will appear for 
-each host in the inventory, incrementing for each host that finishes execution.
-The name of the task being run is used as the progress bar's description.
+And that's it! Whenever you execute a nornir task, a progress bar will be generated
+based on the number of hosts in the inventory, incrementing for each host that 
+finishes execution. The name of the task being run is used as the progress 
+bar's description.
 
 ![Progress bar example](progressbar.png)
 
