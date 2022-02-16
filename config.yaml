@@ -1,8 +1,0 @@
-inventory:
-  plugin: CsvInventory
-runner:
-  plugin: ProgressBar
-  options:
-    num_workers: 5
-    desc: "toto tata"
-
