@@ -10,7 +10,7 @@ setup(
   author = 'Matheus Augusto da Silva',
   author_email = 'a.matheus26@hotmail.com',
   url = 'https://github.com/matman26/nornir_progressbar',
-  download_url = 'https://github.com/matman26/nornir_progressbar/archive/refs/tags/v0.1.0.tar.gz',
+  download_url = 'https://github.com/matman26/nornir_progressbar/archive/refs/tags/v0.1.1.tar.gz',
   keywords = ['nornir', 'tqdm', 'runner', 'plugin'],
   install_requires=[
       'nornir',
